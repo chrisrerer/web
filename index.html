@@ -1,20 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant-TW">
-<!-- 檔頭 -->
-<head>
-    <!-- 網頁文字編碼 -->
-    <meta charset="UTF-8">
-    <!-- 媒體查詢,做到RWD -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 網頁標題，包含網站名稱和網頁名稱 -->
-    <title>漫慢游旅遊網-首頁</title>
-</head>
-<!-- 網站本文，包含圖文、影片、聲音等多媒體 -->
-<body>
-    <h2>標題</h2>
-    <h4>副標題</h4>
-    <p><span style="color: blue;">大阪城</span>旅遊導覽大阪城是日本最著名的歷史古蹟之一，也是大阪的象徵。<br>這座城堡建於16世紀，曾是豐臣秀吉的居城，在日本歷史上具有重要地位。大阪城的必遊景點包括：天守閣：大阪城的最高點，可以從高處俯瞰大阪市區。大手門：大阪城的正門，是大阪城的入口。豊國神社：豐臣秀吉的神社，位於大阪城內。大阪城西之丸庭園：大阪城內的一個庭園，風景優美。以下是一份大阪城一日遊行程建議：上午從大阪站出發，搭乘地鐵御堂筋線到達大阪城站。參觀大阪城天守閣，欣賞大阪市區的景色。下午參觀大阪城大手門。 參觀豊國神社。在大阪城西之丸庭園漫步。大阪城的注意事項大阪城是受歡迎的觀光景點，人潮眾多，請注意安全。大阪城的天守閣有樓梯和電梯兩種方式上行，請根據自己的體力選擇。大阪城的開放時間為9:00-17:00，門票為600日元。結語大阪城是大阪必訪的景點，在這裡您可以感受大阪的歷史文化、欣賞大阪的城市風光。</p>
-    <a href="https://livejapan.com/zh-tw/in-kansai/in-pref-osaka/in-osaka-castle_tenmabashi_kyobashi/article-a2000008/" target="_blank"><img src="images/原始檔/castle-7902731_1920.jpg" alt="大阪城" title="大阪城" aria-label="大阪城" width="300px"></a>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="慢漫遊旅遊網">
+    <meta name="description" content="日本景點整理，網羅日本旅遊資訊，輕鬆詢者最滿意旅遊行程，線上互動">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="日本旅遊, 國外旅遊">
+    <!-- favicon我的最愛圖標 -->
+    <link rel="icon" href="/favicon.ico" type="image/icon">
+    <title>慢漫遊旅遊網-首頁</title>
+    <!-- 雲端壓縮版CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <!-- GA追蹤分析 -->
+  <body>
+    <header>
+      <!-- 導覽列 -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <!-- 品牌名稱，超連結回到首頁 -->
+            <a class="navbar-brand" href="index.html">慢漫遊旅遊網</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">關於品牌</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="viewpoint.html">景點介紹</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hotel.html">住宿資訊</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="safe.html">旅遊安全</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">留言發問</a>
+                </li>
 
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+      </nav>
+    </header> 
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/castle-7902731_1920-ok.jpg.webp" class="d-block w-100" alt="大阪城" title="大阪城" aria-label="大阪城">
+          </div>
+          <div class="carousel-item">
+            <img src="images/japan-5081058_1920-ok.jpg.webp" class="d-block w-100" alt="道頓崛" title="道頓崛" aria-label="道頓崛">
+          </div>
+          <div class="carousel-item">
+            <img src="images/city-5772121_1920-ok.jpg.webp" class="d-block w-100" alt="東京" title="東京" aria-label="東京">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 order-md-1 mt-5">
+            <a href="https://www.osakacastle.net/" target="_blank"><img src="images/index/旅遊相關文章/castle-5583082_1280-ok.jpg.webp" class="rounded-circle w-100" alt="大阪城" title="大阪城" aria-label="大阪城"></a>
+            <div class="card-body">
+              <h2 class="card-title text-primary-emphasis my-2">大阪城</h2>
+              <p class="card-text">大阪城是日本最著名的歷史古蹟之一，也是大阪的象徵。這座城堡建於16世紀，曾是豐臣秀吉的居城，在日本歷史上具有重要地位。<br>大阪城的必遊景點包括：天守閣：大阪城的最高點，可以從高處俯瞰大阪市區。大手門：大阪城的正門，是大阪城的入口。豊國神社：豐臣秀吉的神社，位於大阪城內。大阪城西之丸庭園：大阪城內的一個庭園，風景優美。</p>
+              <p class="text-end"><a href="https://www.osakacastle.net/" target="_blank" class="btn btn-primary" role="button">大阪城官網</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-0 mt-5">
+            <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2154" target="_blank"><img src="images/index/旅遊相關文章/japan-5081057_1920-ok.jpg.webp" class="rounded-circle w-100" alt="道頓崛" title="道頓崛" aria-label="道頓崛"></a>
+            <div class="card-body">
+              <h2 class="card-title text-primary-emphasis my-2">道頓崛</h2>
+              <p class="card-text">道頓堀是大阪最著名的街區，匯集了各式各樣的餐廳、商店和娛樂場所。這裡是大阪的繁華中心，也是體驗大阪活力和熱情的地方。道頓堀的必遊景點包括：固力果跑跑人：道頓堀的標誌性景點，是固力果公司經典廣告的形象。道頓堀川：流經道頓堀的河流，兩岸有許多餐廳和商店。道頓堀水上觀光船：從河上欣賞道頓堀的景色。</p>
+              <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2154" class="btn btn-primary" target="_blank" role="button">道頓崛</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 order-md-2 mt-5">
+            <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=625" target="_blank"><img src="images/原始檔/旅遊相關文章/kobe-2411611_1920.jpg" class="rounded-circle w-100" alt="東京" title="東京" aria-label="東京"></a>
+          <div class="card-body">
+            <h2 class="card-title text-primary-emphasis my-2">東京</h2>
+            <p class="card-text">東京是日本的首都，也是世界級的國際大都市。這裡有著豐富的歷史文化、現代化的建築、以及多元化的娛樂和購物選擇。東京是個適合所有人遊覽的城市，無論是歷史愛好者、購物狂、還是美食家，都能在這裡找到屬於自己的樂趣。春季的東京櫻花盛開，美不勝收；秋季的東京楓葉紅遍街頭，景色迷人。如果想避開人潮，也可以選擇夏季或冬季前往。</p>
+            <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=625" class="btn btn-primary" target="_blank" role="button">東京美景</a></p>
+        </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2 class="text-primary-emphasis">大阪觀光局<span class="text-muted"> 大阪最高觀光管理部門</span></h2>
+            <p class="lead">大阪觀光局，致力於向全世界傳播「大阪，一個充滿活力的城市，讓所有人來到時都能盡情遊玩，享樂」。大阪觀光局的標誌以大阪的地標，大阪城作為背景，旨在成為世界上最高級別的"充滿活力"的旅遊城市，讓旅客和居民能活躍地來往。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/景點圖文/cherry-blossoms-6329828_1920-ok.jpg.webp" alt="大阪觀光局" aria-label="大阪觀光局" title="大阪觀光局" class="img-fluid mx-auto">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7 order-md-1">
+            <h2 class="text-primary-emphasis">日本觀光局<span class="text-muted"> 日本最高觀光管理部門</span></h2>
+            <p class="lead">交通部觀光局（簡稱觀光局）是日本觀光事務的最高主管機關，隸屬於交通部之下。除了負責規劃、執行並管理觀光旅遊事務之外，同時肩負起向外推廣臺灣觀光的工作。觀光局也是各國家級風景特定區的主管機關。</p>
+          </div>
+          <div class="col-md-5 order-md-0" >
+            <img src="images/index/景點圖文/japan-1263530_1920-ok.jpg.webp" alt="日本觀光局" aria-label="日本觀光局" title="日本觀光局" class="img-fluid mx-auto">
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2 class="text-primary-emphasis">大阪觀光局<span class="text-muted"> 道頓崛最高觀光管理部門</span></h2>
+            <p class="lead">道頓堀的起源可追溯到 17 世紀早期。當時，一名當地商人將道頓堀河進行拓寬，希望可以籍此吸引更多做生意的機會。在 50 年的時間內，該地區人口快速增長，設立了六家歌舞伎劇院和五家文樂木偶戲劇院。近 400 年過去了，地區仍然是娛樂中心，吸引著無數的當地居民和遊客前往。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/index/景點圖文/osaka-port-2281899_1920-ok.jpg.webp" alt="大阪觀光局" aria-label="大阪觀光局" title="大阪觀光局" class="img-fluid mx-auto">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top">回到頁面頂端</a></p>
+        <p>慢漫遊旅遊網 &copy; 2024</p>
+      </footer>
+    </main>   
+    <!-- 雲端壓縮版JS(完整版) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
